@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>MU-Panel Apex2 Web Flasher</title>
+  <title>MU-Panel Apex2 缃戦〉鍒锋満宸ュ叿</title>
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
@@ -11,30 +11,30 @@
     <section class="hero">
       <div>
         <p class="eyebrow">MU-Panel Apex2</p>
-        <h1>Web Firmware Flasher</h1>
-        <p class="sub">For Pro Micro / ATmega32U4 boards. Use desktop Chrome or Edge.</p>
+        <h1>缃戦〉鍒锋満宸ュ叿</h1>
+        <p class="sub">閫傜敤浜?Pro Micro / ATmega32U4 璁惧銆傝浣跨敤鐢佃剳鐗?Chrome 鎴?Edge 娴忚鍣ㄣ€?/p>
       </div>
-      <div class="status" id="supportStatus">Checking browser...</div>
+      <div class="status" id="supportStatus">姝ｅ湪妫€鏌ユ祻瑙堝櫒...</div>
     </section>
 
     <section class="panel">
       <div class="firmware">
         <div>
-          <div class="label">Built-in firmware</div>
+          <div class="label">鍐呯疆鍥轰欢</div>
           <div class="file">firmware.hex</div>
         </div>
-        <div class="chip" id="firmwareInfo">Not loaded</div>
+        <div class="chip" id="firmwareInfo">鏈姞杞?/div>
       </div>
 
       <div class="actions three">
-        <button id="connectBtn" type="button">1. Select normal COM</button>
-        <button id="bootBtn" type="button" disabled>2. Enter bootloader</button>
-        <button id="bootSelectBtn" type="button" disabled>3. Select bootloader COM and flash</button>
+        <button id="connectBtn" type="button">1. 閫夋嫨璁惧涓插彛</button>
+        <button id="bootBtn" type="button" disabled>2. 杩涘叆鍒锋満妯″紡</button>
+        <button id="bootSelectBtn" type="button" disabled>3. 閫夋嫨鍒锋満涓插彛骞跺啓鍏?/button>
       </div>
 
       <div class="progressBox">
         <div class="progressTop">
-          <span id="progressText">Waiting</span>
+          <span id="progressText">绛夊緟鎿嶄綔</span>
           <span id="progressPercent">0%</span>
         </div>
         <div class="bar"><div id="progressBar"></div></div>
@@ -42,17 +42,17 @@
     </section>
 
     <section class="panel compact">
-      <h2>How to use</h2>
+      <h2>浣跨敤姝ラ</h2>
       <ol>
-        <li>Plug in the device.</li>
-        <li>Click step 1 and select the current device COM port.</li>
-        <li>Click step 2. The device will reset and reconnect as bootloader.</li>
-        <li>Immediately click step 3 and select the bootloader COM port. Flashing starts automatically.</li>
+        <li>鎻掑叆璁惧銆?/li>
+        <li>鐐瑰嚮绗?1 姝ワ紝閫夋嫨褰撳墠璁惧涓插彛銆?/li>
+        <li>鐐瑰嚮绗?2 姝ワ紝璁惧浼氶噸鍚苟杩涘叆鍒锋満妯″紡銆?/li>
+        <li>璁惧閲嶈繛鍚庯紝绔嬪埢鐐瑰嚮绗?3 姝ワ紝閫夋嫨鏂板嚭鐜扮殑鍒锋満涓插彛锛岀綉椤典細鑷姩鍐欏叆鍥轰欢銆?/li>
       </ol>
     </section>
 
     <section class="panel logPanel">
-      <div class="logTitle">Log</div>
+      <div class="logTitle">鍒锋満鏃ュ織</div>
       <pre id="log"></pre>
     </section>
   </main>
